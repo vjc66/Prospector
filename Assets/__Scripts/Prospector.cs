@@ -175,7 +175,8 @@ public class Prospector : MonoBehaviour
             // Search through all cards in the tableau List<> 
             if (tCP.layoutID == layoutID)
             {
-                // If the card has the same ID, return itreturn( tCP ); 
+                // If the card has the same ID, return it
+                return ( tCP ); 
             }
         }
         // If it's not found, return null 
